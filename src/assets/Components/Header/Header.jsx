@@ -11,7 +11,7 @@ const Header = ({ price }) => {
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="flex justify-between gap-5 mr-7">
-                        <li className="text-,g font-normal text-black"><a href="#">Home</a></li>
+                        <li className="text-xl font-normal text-black"><a href="#">Home</a></li>
                         <li className="text-xl font-normal text-black"><a href="#">Fixture</a></li>
                         <li className="text-xl font-normal text-black"><a href="#">Teams</a></li>
                         <li className="text-xl font-normal text-black"><a href="#">Schedules</a></li>
