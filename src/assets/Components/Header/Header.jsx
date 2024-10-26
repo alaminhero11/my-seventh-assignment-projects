@@ -1,4 +1,6 @@
 import Logo from '../../../assets/Components/Images/logo.png'
+import Coin from '../../Components/Images/dollar.png'
+
 
 const Header = ({ price }) => {
     return (
@@ -15,7 +17,7 @@ const Header = ({ price }) => {
                         <li className="text-xl font-normal"><a href="#">Schedules</a></li>
                     </ul>
                 </div>
-                <button className="btn w-32 h-14"> ${price} Coin <img src="../images/logo.png" alt="" /></button>
+                <button className="btn border-2 border-solid border-gray-300 bg-white hover:bg-white w-1/7 h-14"> ${price} Coin <img src={Coin} alt="" /></button>
                 <div className="dropdown">
                     <div tabindex="0" role="button" className="btn btn-ghost lg:hidden">
                         <svg

@@ -1,4 +1,7 @@
 /* eslint-disable react/prop-types */
+import User from '../../Components/Images/user.png'
+import Flag from '../../Components/Images/report.png'
+
 
 const CardPlayer = ({ players, handleSelectPlayer }) => {
 
@@ -11,10 +14,13 @@ const CardPlayer = ({ players, handleSelectPlayer }) => {
                     <img className="w-full h-80 bg-cover mx-auto rounded-lg" src={image} alt="" />
                 </div>
                 <div className="my-5">
-                    <h3 className="text-xl font-semibold my-1">{name}</h3>
+                    <div className='flex gap-3 items-center'>
+                        <img className='w-7 h-7' src={User} alt="" />
+                        <h3 className="text-xl font-semibold my-1"> {name}</h3>
+                    </div>
                     <div className="flex justify-between items-center my-1">
-                        <div className="">
-                            <i className="fa-solid fa-user"></i>
+                        <div className="flex gap-3 items-center">
+                            <img className='w-4 h-4' src={Flag} alt="" />
                             <h3 className="text-base font-normal">{country}</h3>
                         </div>
                         <h3 className="text-base font-medium bg-gray-100 py-2 px-4 rounded-lg">{role}</h3>

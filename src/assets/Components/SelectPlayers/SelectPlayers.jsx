@@ -1,6 +1,6 @@
 
 
-const SelectPlayers = ({ selectPlayers, handleDelete }) => {
+const SelectPlayers = ({ selectPlayers, handleDelete, handleActiveStatus }) => {
 
     return (
         <div className="">
@@ -19,12 +19,13 @@ const SelectPlayers = ({ selectPlayers, handleDelete }) => {
                             <button onClick={() => handleDelete(players.id)}>Delete</button>
                         </div>
                     </div>
-
                 ))
             }
-            <span className="border border-solid border-amber-300 rounded-2xl py-5 px-2 my-36">
-                <button className="bg-amber-300 w-40 h-12 text-base font-medium rounded-xl">Add More Player</button>
-            </span>
+            <div className=" my-10">
+                <span className="border border-solid border-amber-300 rounded-2xl py-5 px-2">
+                    <button onClick={() => handleActiveStatus("AllPlayers")} className="bg-amber-300 w-40 h-12 text-base font-medium rounded-xl">Add More Player</button>
+                </span>
+            </div>
         </div>
     );
 };

@@ -17,7 +17,7 @@ const CartContainer = ({ handleActiveStatus, isActive, handleSelectPlayer, selec
             </div>
             {
                 isActive.AllPlayers ? <AllPlayers handleSelectPlayer={handleSelectPlayer}></AllPlayers> :
-                    <SelectPlayers selectPlayers={selectPlayers} handleDelete={handleDelete}></SelectPlayers>
+                    <SelectPlayers selectPlayers={selectPlayers} handleDelete={handleDelete} handleActiveStatus={handleActiveStatus}></SelectPlayers>
             }
         </div>
     );

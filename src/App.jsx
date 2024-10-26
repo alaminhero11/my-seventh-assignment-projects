@@ -16,11 +16,21 @@ const App = () => {
   const [selectPlayers, setSelectPlayers] = useState([])
 
   // -----useState-2-----
-  const [price, setPrice] = useState(15000000);
+  const [price, setPrice] = useState(0);
+
+  //----------Handle Price----------
+  const handleClaimPrice = (pr) => {
+    setPrice(price + 50000)
+  }
 
   //----------Handle Price----------
   const handleIncreasePrice = (pr) => {
-    setPrice(price - pr)
+    if (price < 0) {
+      setPrice(price - pr)
+    }
+    else {
+      alert("Influence Balance !")
+    }
   }
   const handleDeletePrice = (id) => {
     const player = setSelectPlayers.find((p) => p.id == id);
@@ -35,7 +45,7 @@ const App = () => {
     setSelectPlayers(newDeletePlayer);
   }
 
-  //----------Handle Click----------
+  //----------handleSelectPlayer----------
   const handleSelectPlayer = (player) => {
     const isExist = selectPlayers.find((p) => p.id == player.id);
 
@@ -50,7 +60,7 @@ const App = () => {
   }
 
 
-  // ---------------------------------------
+  // --------------handleActiveStatus----------------
   const handleActiveStatus = (status) => {
     if (status == "AllPlayers") {
       setIsActive({
@@ -72,7 +82,7 @@ const App = () => {
     <div>
       <div className="w-10/12 mx-auto">
         <Header price={price}></Header>
-        <Banner></Banner>
+        <Banner handleClaimPrice={handleClaimPrice}></Banner>
         <div className="">
           <CartContainer handleDelete={handleDelete} isActive={isActive} handleActiveStatus={handleActiveStatus} handleSelectPlayer={handleSelectPlayer} selectPlayers={selectPlayers}></CartContainer>
         </div>

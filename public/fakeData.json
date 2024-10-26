@@ -52,5 +52,59 @@
     "role": "Wicket-Keeper Batter",
     "price": 90000,
     "image": "https://i.ibb.co.com/Zxd7NnR/wp9844332-nicholas-pooran-wallpapers-1.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Chris Lynn",
+    "country": "Australia",
+    "batting": "Right-Handed",
+    "role": "Batter",
+    "price": 80000,
+    "image": "https://i.ibb.co.com/hZL1HVL/wp6205119-chris-lynn-wallpapers.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Colin Munro",
+    "country": "New Zealand",
+    "batting": "Left-Handed",
+    "role": "Bowler",
+    "price": 95000,
+    "image": "https://i.ibb.co.com/Y09c70N/wp11533947-colin-munro-wallpapers.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Imran Tahir",
+    "country": "South Africa",
+    "batting": "Right-Handed",
+    "role": "Bowler",
+    "price": 70000,
+    "image": "https://i.ibb.co.com/YjpNtMY/wp4475489-imran-tahir-wallpapers.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Ben Cutting",
+    "country": "Australia",
+    "batting": "Right-Handed",
+    "role": "All-Rounder",
+    "price": 75000,
+    "image": "https://i.ibb.co.com/ZYs05pp/wp12354146-ben-cutting-wallpapers.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Rilee Rossouw",
+    "country": "South Africa",
+    "batting": "Right-Handed",
+    "role": "Top-order Batter",
+    "price": 85000,
+    "image": "https://i.ibb.co.com/CV7P7vc/gettyimages-1436892124-2048x2048.jpg"
+  },
+  {
+    "id": "11",
+    "name": "David Wiese",
+    "country": "Namibia",
+    "batting": "Right-Handed",
+    "role": "All-Rounder",
+    "price": 60000,
+    "image": "https://i.ibb.co.com/C8GVZ0N/gettyimages-2156489717-2048x2048.jpg"
   }
 ]
