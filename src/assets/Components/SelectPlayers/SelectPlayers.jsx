@@ -1,5 +1,4 @@
-
-
+import Delete from '../../Components/Images/delete.png'
 const SelectPlayers = ({ selectPlayers, handleDelete, handleActiveStatus }) => {
 
     return (
@@ -16,7 +15,7 @@ const SelectPlayers = ({ selectPlayers, handleDelete, handleActiveStatus }) => {
                                     <p className="font-semibold text-gray-500">{players.batting}</p>
                                 </div>
                             </div>
-                            <button onClick={() => handleDelete(players.id)}>Delete</button>
+                            <button onClick={() => handleDelete(players.id)}> <img src={Delete} alt="" /> </button>
                         </div>
                     </div>
                 ))

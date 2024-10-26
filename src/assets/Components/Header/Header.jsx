@@ -11,13 +11,13 @@ const Header = ({ price }) => {
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="flex justify-between gap-5 mr-7">
-                        <li className="text-xl font-normal"><a href="#">Home</a></li>
-                        <li className="text-xl font-normal"><a href="#">Fixture</a></li>
-                        <li className="text-xl font-normal"><a href="#">Teams</a></li>
-                        <li className="text-xl font-normal"><a href="#">Schedules</a></li>
+                        <li className="text-,g font-normal text-black"><a href="#">Home</a></li>
+                        <li className="text-xl font-normal text-black"><a href="#">Fixture</a></li>
+                        <li className="text-xl font-normal text-black"><a href="#">Teams</a></li>
+                        <li className="text-xl font-normal text-black"><a href="#">Schedules</a></li>
                     </ul>
                 </div>
-                <button className="btn border-2 border-solid border-gray-300 bg-white hover:bg-white w-1/7 h-14"> ${price} Coin <img src={Coin} alt="" /></button>
+                <button className="btn text-lg border-2 border-solid border-gray-300 bg-white hover:bg-white w-1/7 h-14"> ${price} Coin <img src={Coin} alt="" /></button>
                 <div className="dropdown">
                     <div tabindex="0" role="button" className="btn btn-ghost lg:hidden">
                         <svg
@@ -36,10 +36,10 @@ const Header = ({ price }) => {
                     <ul
                         tabindex="0"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Fixture</a></li>
-                        <li><a href="#">Teams</a></li>
-                        <li><a href="#">Schedules</a></li>
+                        <li className='text-black'><a href="#">Home</a></li>
+                        <li className='text-black'><a href="#">Fixture</a></li>
+                        <li className='text-black'><a href="#">Teams</a></li>
+                        <li className='text-black'><a href="#">Schedules</a></li>
                     </ul>
                 </div>
             </div>

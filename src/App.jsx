@@ -18,14 +18,14 @@ const App = () => {
   // -----useState-2-----
   const [price, setPrice] = useState(0);
 
-  //----------Handle Price----------
+  //----------Handle Claim Price----------
   const handleClaimPrice = (pr) => {
     setPrice(price + 50000)
   }
 
   //----------Handle Price----------
   const handleIncreasePrice = (pr) => {
-    if (price < 0) {
+    if (price > 0) {
       setPrice(price - pr)
     }
     else {
@@ -40,7 +40,7 @@ const App = () => {
 
   //----------Handle Delete----------
   const handleDelete = (id) => {
-    // handleDeletePrice(id);
+
     const newDeletePlayer = selectPlayers.filter((p) => p.id != id);
     setSelectPlayers(newDeletePlayer);
   }
@@ -76,8 +76,7 @@ const App = () => {
     }
   }
 
-  // ---------------------------------------
-
+  // ---------------Return()-------------------//
   return (
     <div>
       <div className="w-10/12 mx-auto">
