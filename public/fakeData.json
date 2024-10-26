@@ -1,0 +1,56 @@
+[
+  {
+    "id": "0",
+    "name": "Mahmudullah Riyad",
+    "country": "Bangladesh",
+    "batting": "Right-Handed",
+    "role": "All-Rounder",
+    "price": 60000,
+    "image": "https://i.ibb.co.com/3mXjKLC/gettyimages-694229618-2048x2048.jpg"
+  },
+  {
+    "id": "1",
+    "name": "Chris Gayle",
+    "country": "West Indies",
+    "batting": "Left-Handed",
+    "role": "Batting All-Rounder",
+    "price": 100000,
+    "image": "https://i.ibb.co.com/JFFfDxw/44299-2560x1829-desktop-hd-gayle-background-photo.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Alex Hales",
+    "country": "England",
+    "batting": "Right-Handed",
+    "role": "Opening Batter",
+    "price": 85000,
+    "image": "https://i.ibb.co.com/qMmBrwy/wp6749806-alex-hales-wallpapers.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "batting": "Right-Handed",
+    "role": "All-Rounder",
+    "price": 110000,
+    "image": "https://i.ibb.co.com/6PSPMXY/wp7715031-andre-russell-kkr-wallpapers.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Dawid Malan",
+    "country": "England",
+    "batting": "Left-Handed",
+    "role": "Top-order Batter",
+    "price": 75000,
+    "image": "https://i.ibb.co.com/0yKw48f/wp8598421-dawid-malan-wallpapers.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Nicholas Pooran",
+    "country": "West Indies",
+    "batting": "Left-Handed",
+    "role": "Wicket-Keeper Batter",
+    "price": 90000,
+    "image": "https://i.ibb.co.com/Zxd7NnR/wp9844332-nicholas-pooran-wallpapers-1.jpg"
+  }
+]
